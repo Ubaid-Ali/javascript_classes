@@ -1,0 +1,22 @@
+	<html>
+	<header>
+	<title>Classes JS</title>
+	</header>
+	<body>
+	<p id="demo"></p>
+
+<script> 
+
+class Car {
+	constructor(name, year){
+		this.name = name;
+		this.year = year;
+	}
+}
+
+let myCar1 = new Car("ford", 2014);
+document.getElementById("demo").innerHTML = "My car name is " + myCar1.name + " and my car model is " + myCar1.year;
+
+</script>
+	</body>
+	</html>
