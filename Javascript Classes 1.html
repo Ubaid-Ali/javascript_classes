@@ -8,14 +8,19 @@
 <script> 
 
 class Car {
+
 	constructor(name, year){
 		this.name = name;
 		this.year = year;
 	}
 }
+		let carName = prompt("Please Enter the car name.");
 
-let myCar1 = new Car("ford", 2014);
-document.getElementById("demo").innerHTML = "My car name is " + myCar1.name + " and my car model is " + myCar1.year;
+		let carModel = prompt("Please Enter your car model.");
+
+
+let myCar1 = new Car(carName, carModel);
+document.getElementById("demo").innerHTML = "My car name is " + myCar1.name + " and my car model is " + myCar1.year + ".";
 
 </script>
 	</body>
